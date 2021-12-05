@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Register</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../static/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../static/assets/css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="#">
+
+                        <h2>Sarcastic<h2>
+						  
+            
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                       <li><a href="home.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>              
+                    <li><a href="post.html">Post</a></li>		 			                
+                    <li><a href="FAQS.html">FAQs</a></li>       
+                            
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro"> 
+				 
+            
+            <p>I don’t have the energy to pretend to like you today</p>
+              
+		   <a class="btn btn-white" data-scroll href="register.html">Register</a>
+        </div>
+    </header>
+
+  
+   <section id="registration" class="section registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+				<a href='/registrationpagedetails'>
+                    <h3 class="section-title">Register</h3></a>
+                </div>
+            </div>
+                
+            <form action="/registrationpagedetails" id="registration-form" method="POST">
+                <div class="row">
+                    
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter User Name"  name="fname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Enter PhoneNumber" id="lname" name="lname" required>
+                       </div> 
+
+					 <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Password" id="fname" name="fname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Enter Confirm Password" id="lname" name="lname" required>
+                       </div>                    
+						
+						 
+                    </div>
+                     
+                </div>
+                <div>
+				<input type="submit" class="btn btn-black" value="Register"></input>
+                </div>
+				 
+				
+            </form>
+        </div>
+    </section>
+ 
+   
+   
+
+    
+
+   
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">Designed and <br> Developed by <a href="http://technextit.com">Technext Limited</a></p>
+                    <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="../static/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../static/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="../static/assets/js/main.js"></script>
+</body>
+</html>

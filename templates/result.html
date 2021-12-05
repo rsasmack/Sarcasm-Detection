@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<link rel="stylesheet" href="../static/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../static/assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+
+<nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="#">
+
+                        <h2>Sarcastic<h2>
+
+
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+								<li><a href="/">Home</a></li>
+								 <li><a href="about_us.html">About</a></li>
+								 <li><a href="post.html">back</a></li>	
+								 <li><a href="FAQS.html">FAQs</a></li>
+								 <li><a href="home.html">Logout</a></li>
+
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+ <header id="site-header" class="site-header valign-center">
+        <div class="intro">
+    
+
+            <p>Just because I don’t care doesn’t mean I don’t understand.</p>
+			 <a class="btn btn-white" data-scroll href='#registration'>Result</a>
+          
+        </div>
+    </header>
+
+
+
+	 <section id="registration" class="section registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+					 <h1> <p style="color:blue;font-size:20;"><b>Results for Comment</b></p></h1>
+                </div>
+            </div>
+
+	   <h1 class="mb-4 pb-0 style=" style="color:blue;font-size:20;"><br><span>Result is:</span> </h1>
+	   <h1 class="mb-4 pb-0 style=" style="color:red;font-size:20;"><br><span>{{temp}}</span> </h1>
+		<h1 class="mb-4 pb-0 style=" style="color:blue;font-size:20;"><br><span>Polarity is:</span></h1>
+		<h1 class="mb-4 pb-0 style=" style="color:red;font-size:20;"><br><span>{{temp1}}</span></h1>
+	  
+    
+        </div>
+    </section>
+
+
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                  
+                    <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="../static/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../static/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="../static/assets/js/main.js"></script>
+</body>
+</html>
