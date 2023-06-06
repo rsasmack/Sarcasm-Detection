@@ -1,4 +1,4 @@
-# Sarcasm-Detection
+# Sarcasm-Detection based on Tweets
 
 Sarcasm is an ironic or satirical remark tempered by humor.Sarcasm is a figure of speech or speech comment which is extremely difficult to define. It is a statement or comment which means the opposite of what it says. It may be made with the intent of humour, or it may be made to be hurtful.Sarcasm is all about the context and tone of voice, which is why it works better verbally. It's something you'll know when you hear it.
 
